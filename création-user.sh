@@ -31,7 +31,7 @@ do
     read U
 done
 
-echo -n " assignation de groupe à utlisateur  (entrer pour arreter separer avec , pour plusieur groupe) : "
+echo -n " assignation de groupe à utilisateur  (entrer pour arreter separer avec , pour plusieur groupe) : "
 read G
 
 while [ ! -z "$G" ]
